@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e597f3c2b5.js" crossorigin="anonymous"></script>
+    <title>My 1st Portfolio</title>
+</head>
+<body class="min-h-screen">
+
+<header id="home">
+    
+    <!-- <nav class="flex justify-between items-center bg-slate-900 pr-36 py-5 fixed w-full top-0 bg-opacity-80 z-10">
+
+        <h1 class="flex text-4xl pl-20">
+            <a href="#"><img src="./img/alien.png" width="70px" class="hover:scale-125 transition ease-in-out duration-300"></a>
+        </h1>
+
+    <div class="text-2xl flex items-center gap-[4vw]">
+        <ul class="flex items-center gap-[4vw] list-none">
+            <li><a href="#home" class="text-white hover:text-ufo-green hover:scale-110 transition ease-in-out duration-300 font-bold">Home</a></li>
+            <li><a href="#skills" class="text-white hover:text-ufo-green hover:scale-110 transition ease-in-out duration-300 font-bold">About me</a></li>
+            <li><a href="#my-work" class="text-white hover:text-ufo-green hover:scale-110 transition ease-in-out duration-300 font-bold">My Work</a></li>
+            <li><a href="#contact" class="text-white hover:text-ufo-green hover:scale-110 transition ease-in-out duration-300 font-bold">Contact</a></li>
+        </ul>
+    </div>
+    
+
+    </nav> -->
+    <!-- Navigation Bar -->
+    <nav class="bg-slate-900 p-4 fixed w-full top-0 bg-opacity-80 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+
+            <!-- Logo -->
+            <div class="text-white font-bold text-xl">
+                <a href="#"><img src="./img/alien.png" width="70px" class="hover:scale-125 transition ease-in-out duration-300"></a>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="hidden md:flex space-x-4 gap-[3vw]">
+                <a href="#home" class="text-white hover:text-ufo-green hover:scale-110 duration-300
+                 ease-in-out text-2xl font-bold">Home</a>
+                <a href="#skills" class="text-white hover:text-ufo-green hover:scale-110 duration-300
+                ease-in-out text-2xl font-bold">About me</a>
+                <a href="#my-work" class="text-white hover:text-ufo-green hover:scale-110 duration-300
+                ease-in-out text-2xl font-bold">My Work</a>
+                <a href="#contact" class="text-white hover:text-ufo-green hover:scale-110 duration-300
+                ease-in-out text-2xl font-bold">Contact</a>
+            </div>
+
+            <button class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-green-700 group bg-ufo-green">
+                <div class="w-5 h-1 bg-slate-900 mb-1"></div>
+                <div class="w-5 h-1 bg-slate-900 mb-1"></div>
+                <div class="w-5 h-1 bg-slate-900 "></div>
+                <div class="absolute mt-10 -right-full opacity-0 mb-1 w-8/12 bg-slate-900 border-none transform
+                group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
+
+                    <ul class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
+                        <li class="hover:bg-slate-700 py-4 px-6 w-full text-2xl font-bold text-ufo-green"><a href="#home">Home</a></li>
+
+                        <li class="hover:bg-slate-700 py-4 px-6 w-full text-2xl font-bold text-ufo-green"><a href="skills">About me</a></li>
+
+                        <li class="hover:bg-slate-700 py-4 px-6 w-full text-2xl font-bold text-ufo-green"><a href="#my-work">My Work</a></li>
+
+                        <li class="hover:bg-slate-700 py-4 px-6 w-full text-2xl font-bold text-ufo-green"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+</header>
+
+<main class="">
+
+<div  id="about" class="flex justify-center mt-64 flex-wrap md:flex-row">
+    
+    <div class="text-center w-4/12 mt-52 flex flex-col">
+        <h2 class="text-6xl mb-5 text-ufo-green">Anastasios Aintinidis</h2>
+        <h3 class="text-4xl mb-10 text-ufo-green">Frontend Web Developer</h3>
+        <p class="text-xl mb-10 font-semibold text-white">As a web developer, I find joy in crafting seamless online experiences that resonate with both creativity and functionality. Explore my portfolio, and let's embark on a journey where innovation meets immaculate execution.
+        </p>
+    
+
+        <div class="flex justify-around">
+            <a href="https://github.com/Taseos" target="_blank"><i class="fa-brands fa-github fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></a>
+        </div>
+    </div>
+    <div class="flex flex-row justify-center md:flex-col">
+        <img src="./img/alien-hero.png" alt="alien-hero" width="650px" class="animate-pulse">
+    </div>
+    
+
+</div>
+
+<hr class="w-8/12 mx-auto mt-20">
+
+<section id="skills" class="">
+
+<div class="flex justify-center flex-wrap md:flex-row">
+        
+        <img src="./img/alien-disk.png" alt="alien-disk" width=500px class="disk mt-40 animate-bounce">
+    
+    <div class="text-center w-4/12 p-6 mt-52 flex flex-col">
+
+            <h2 class="text-5xl font-bold mb-10 text-ufo-green">Skills</h2>
+            <p class="text-xl font-semibold text-white">"With a solid command of HTML, CSS, Javascript, I bring concepts to life, ensuring both functionality and aesthetic appeal. My toolkit also includes Tailwind CSS, adding efficiency and style to my development process. Ready to explore to intersection of code and creativity? let's dive into a showcase of my work together"</p>
+
+        <div class="flex justify-around mt-7">
+            <div><i class="fa-brands fa-html5 fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></div>
+            <div><i class="fa-brands fa-css3 fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></div>
+            <div><i class="fa-brands fa-js fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></div>
+            <div><i class="fa-brands fa-bootstrap fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></div>
+            <div><i class="fa-brands fa-react fa-2xl text-ufo-green hover:scale-125 transition ease-in-out duration-300"></i></div>
+        </div>
+
+    </div>  
+
+</div>
+
+</section>
+
+<hr class="w-8/12 mx-auto ">
+
+
+<section id="my-work" class="h-screen mt-20">
+
+    <h2 class="text-ufo-green flex justify-center mb-20 text-5xl font-bold ">My Work</h2>
+
+    <div class="flex justify-center gap-20">
+        <iframe src="https://taseos.github.io/respo-website/" width="800" title="Responsive" height="600" style="border:0" class="blur-sm hover:blur-none duration-300"></iframe>
+        <iframe src="https://taseos.github.io/speaker-shop/" title="Speaker-shop" style="border:0" width="800" height="600" class="blur-sm hover:blur-none duration-300"></iframe>
+        
+    </div>
+
+</section>
+<hr class="w-8/12 mx-auto mb-32">
+
+
+<div id="contact" class="w-8/12 mx-auto bg-gray-700 rounded p-6 mb-32 md:w-4/12">
+    <h1 class="text-4xl font-bold mb-4 text-ufo-green flex justify-center">Contact Me</h1>
+
+    
+    <form action="#" method="POST">
+    
+        <div class="mb-4">
+            <label for="name" class="block text-ufo-green text-2xl font-semibold mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-ufo-green" placeholder="Enter your name" required>
+        </div>
+
+        <div class="mb-4">
+            <label for="email" class="block text-ufo-green text-2xl font-semibold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-ufo-green" placeholder="Enter your email" required>
+        </div>
+
+        <div class="mb-6">
+            <label for="message" class="block text-ufo-green text-2xl font-semibold mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded focus:outline-none focus:border-ufo-green" placeholder="Write something..." required></textarea>
+        </div>
+
+        <button type="submit" class="bg-ufo-green text-white px-4 py-2 rounded hover:bg-green-700 focus:outline-none focus:shadow-outline-blue text-xl font-bold">
+            Submit
+        </button>
+    </form>
+</div>
+
+
+</main>
+
+
+
+<hr class="w-8/12 mx-auto">
+
+<footer class="mt-10">
+
+    <div class="flex justify-center mb-10">
+        <p class="text-ufo-green">&copy; - 2023</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
